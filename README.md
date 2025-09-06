@@ -38,7 +38,7 @@ Genes were annotated with Prokka and AMRfinderplus
 `ListeriaEx_network.R` finilizes the MGE annotation: it identifies PP elements and filter them out from the plasmid and phage annotations. It saves the final MGE annotation: `all_MGE_filtered.tsv`.  
 It also generates the network in Figure 5 and Figure S9 of the paper.  
 `ListeriaEx_connectivity.R` gives statistics on the network; it generates Figures S3 and S6 of the paper.  
-`ListeriaEx_mergeAnnotations.R` figures out the location of each gene: are their in any MGE?  
+`ListeriaEx_geneLocation.R` figures out the location of each gene: are their in any MGE?  
 It also generates Figure 2 of the paper.  
-`ListeriaEx_whereAreGenes.R` generates the matrix of Figure 1 of the paper. It also generates Figure 4 with the same data.  
+`ListeriaEx_matrix.R` generates the matrix of Figure 1 of the paper. It also generates Figure 4 with the same data.  
 `ListeriaEx_defenseSystem.R` generates Figure S1 of the paper. 
