@@ -85,7 +85,6 @@ PP <-  plasmid_filtered[MGEname %in% allMGE[type=="PP"]$MGEname]
 plasmid_filtered <- plasmid_filtered[MGEname %in% allMGE[type=="plasmid"]$MGEname]
 fwrite(plasmid_filtered, "plasmids_filtered_noPP.tsv", sep = "\t")
 fwrite(PP, "PP_filtered.tsv", sep = "\t")
-
 fwrite(phages_filtered, "phages_filtered_noPP.tsv")
 
 
