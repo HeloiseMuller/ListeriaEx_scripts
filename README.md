@@ -25,10 +25,13 @@ Then, we used the script `extractTransposons.sh` to get the table of transposons
 
 Plasmids were annotated with the MOB-recon tool from the MOB-suite, in each assembly independently.
 
-Phage were annotated in all assemblies at once with the pipeline phageAnnotation, available at https://github.com/HeloiseMuller/phageAnnotation
+Phage were annotated in all assemblies at once with the pipeline phageAnnotation, available at https://github.com/HeloiseMuller/phageAnnotation  
+Two fasta of phage sequences were saved:  
+* `phages_filtered_3TuningRemoval.fa` was filtered according to filters (i) and (ii) of the paper but not depending on the length.
+* `phages_filtered_5000bp_AND_3TuningRemoval.fa` are the same phage sequences as above, but only keeping those which are at least 5000bp long.
 
 Finally, all annotations were put together in a same file:  
-`cat transposons/all_transposons.fasta plasmids/all_plasmids.fasta phages/allOutputs_vs2-pass2_final-viral-combined.fa > all_MGE.fasta`  
+`cat transposons/all_transposons.fasta plasmids/all_plasmids.fasta phages/phages_filtered_3TuningRemoval.fa > all_MGE.fasta`  
 We also calculated the length of each MGE and saved the file as `all_MGE.length`.  
 
 ## Genes annotation
