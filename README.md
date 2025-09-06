@@ -20,7 +20,7 @@ awk -v var="assembly1" '{print $0, var}' OFS='\t' outputs_bacant_v3.1/assembly1/
 #Once ran for all genomes, annotations were concatenated
 cat  outputs_bacant_v3.1/assembly1/annotation_named.tsv  outputs_bacant_v3.1/assemblyN/annotation_named.tsv >  outputs_bacant_v3.1/all_annotation_named.tsv
 ```
-Then, we used the script `extractTranspons.sh` to get the table of transposons only (`transposons.tsv`), and the fasta of transposons (`all_transposons.fasta`)
+Then, we used the script `extractTransposons.sh` to get the table of transposons only (`transposons.tsv`), and the fasta of transposons (`all_transposons.fasta`)
 
 
 Plasmids were annotated with the MOB-recon tool from the MOB-suite, in each assembly independently.
