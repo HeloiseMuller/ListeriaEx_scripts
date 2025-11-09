@@ -3,7 +3,7 @@ Scripts used in our paper about genetic exchanges in Listeria's MGE.
 Only scripts used on the local dataset are provided, as the method is the same one on the global dataset.
 
 ## Citation
-Please cite  "Genetic exchange networks bridge mobile DNA vehicles in the bacterial pathogen Listeria monocytogenes" by Muller et al. (Publication to come).
+Please cite  "Genetic exchange networks bridge mobile DNA vehicles in the bacterial pathogen Listeria monocytogenes" by  by [Muller et al. (2025)](https://www.nature.com/articles/s41467-025-64743-x)
 
 ## MGEs annotation
  
